@@ -1,0 +1,24 @@
+ul {
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#welcome {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#disc {
+    justify-content: center;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.hello {
+    color:red;
+    background: url('./imgs/food.png');
+}
