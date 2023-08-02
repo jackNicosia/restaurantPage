@@ -20,5 +20,10 @@ ul {
 
 .hello {
     color:red;
-    background: url('./imgs/food.png');
+    /* this works background: url('./imgs/food.png'); */
+    background-repeat: no-repeat;
+}
+
+#fancyPic {
+    width: 50%;
 }
