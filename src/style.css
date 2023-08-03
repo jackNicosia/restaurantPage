@@ -1,4 +1,4 @@
-ul {
+.nav {
     display:flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -50,5 +50,22 @@ ul {
 }
 
 body {
-    background-color: #9b0707;;
+    background-color: #9b0707;
+}
+
+.selectedNav {
+    color: #9b0707;
+    font-size: 1.5em;
+}
+
+.menuLayout {
+    display:grid;
+    grid-template-rows: 20vh 20vh 20vh;
+    grid-template-columns: 45vw 45vw;
+    justify-content: center;
+    gap: 5%;
+}
+
+li {
+    cursor: pointer;
 }
