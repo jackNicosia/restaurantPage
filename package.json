@@ -4,7 +4,7 @@
   "description": "My restaurant page for The Odin Project.",
   "private": true,
   "scripts": {
-    "ghPage": "git subtree push --prefix dist origin gh-pages",
+    "deploy-demo": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
