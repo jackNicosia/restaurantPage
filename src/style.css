@@ -57,7 +57,7 @@
 }
 
 body {
-    background-image: url(../src/imgs/wallpaper.png);
+    background-image: url(../dist/imgs/wallpaper.png);
     font-size: 16px;
 }
 

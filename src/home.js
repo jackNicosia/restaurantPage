@@ -16,7 +16,7 @@ function createHomePage() {
 
     const pic = document.createElement('img');
     contentDiv.appendChild(pic);
-    pic.src = "../src/imgs/food.png"
+    pic.src = "../dist/imgs/food.png"
     pic.classList.add('fancyPic')
 
     const disc = document.createElement('p');

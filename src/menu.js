@@ -18,7 +18,7 @@ function createMenuPage(){
     pasta.classList.add('menuDiv');
     layout.appendChild(pasta);
     const pastaImg = document.createElement('img');
-    pastaImg.src = "../src/imgs/pasta.png"
+    pastaImg.src = "../dist/imgs/pasta.png"
     pasta.appendChild(pastaImg);
     pastaImg.classList.add('menuImg');
     const pastaDisc = document.createElement('p');
@@ -32,7 +32,7 @@ function createMenuPage(){
     lobster.classList.add('menuDiv');
     layout.appendChild(lobster);
     const lobsterImg = document.createElement('img');
-    lobsterImg.src = "../src/imgs/lobster.png"
+    lobsterImg.src = "../dist/imgs/lobster.png"
     lobster.appendChild(lobsterImg);
     lobsterImg.classList.add('menuImg');
     const lobsterDisc = document.createElement('p');
@@ -46,7 +46,7 @@ function createMenuPage(){
     truffle.classList.add('menuDiv');
     layout.appendChild(truffle);
     const truffleImg = document.createElement('img');
-    truffleImg.src = "../src/imgs/truffle.png"
+    truffleImg.src = "../dist/imgs/truffle.png"
     truffle.appendChild(truffleImg);
     truffleImg.classList.add('menuImg');
     const truffleDisc = document.createElement('p');
@@ -60,7 +60,7 @@ function createMenuPage(){
     garden.classList.add('menuDiv');
     layout.appendChild(garden);
     const gardenImg = document.createElement('img');
-    gardenImg.src = "../src/imgs/garden.png"
+    gardenImg.src = "../dist/imgs/garden.png"
     garden.appendChild(gardenImg);
     gardenImg.classList.add('menuImg');
     const gardenDisc = document.createElement('p');
@@ -74,7 +74,7 @@ function createMenuPage(){
     lamb.classList.add('menuDiv');
     layout.appendChild(lamb);
     const lambImg = document.createElement('img');
-    lambImg.src = "../src/imgs/lamb.png"
+    lambImg.src = "../dist/imgs/lamb.png"
     lamb.appendChild(lambImg);
     lambImg.classList.add('menuImg');
     const lambDisc = document.createElement('p');
@@ -88,7 +88,7 @@ function createMenuPage(){
     berry.classList.add('menuDiv');
     layout.appendChild(berry);
     const berryImg = document.createElement('img');
-    berryImg.src = "../src/imgs/berry.png"
+    berryImg.src = "../dist/imgs/berry.png"
     berry.appendChild(berryImg);
     berryImg.classList.add('menuImg');
     const berryDisc = document.createElement('p');
