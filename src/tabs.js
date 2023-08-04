@@ -39,6 +39,32 @@ const createTabs = () => {
         createContactPage();
     })
 
+
+
+  // Get all the navigation items
+  const navItems = document.querySelectorAll('nav ul li');
+
+  // Add a click event listener to each item
+  navItems.forEach(item => {
+    item.addEventListener('click', () => {
+      // Remove the "selected" class from all items
+      navItems.forEach(item => {
+        item.classList.remove('selectedNav');
+      });
+
+      // Add the "selected" class to the clicked item
+      item.classList.add('selectedNav');
+    });
+  });
+
+
+
+
+
+
+
+
+
 }
 
 export default createTabs;

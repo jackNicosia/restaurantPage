@@ -3,11 +3,11 @@
     justify-content: space-evenly;
     list-style-type: none;
     font-family: 'Raleway';
-    margin-top: 2%;
     border-bottom: 10px solid;
-    font-size: 1.3em;
+    font-size: 1.8em;
     align-items: center;
     background-color: #ffffffb2;
+    margin-top: -8px;
 }
 
 .welcome {
@@ -15,6 +15,8 @@
     margin-top: 2%;
     font-family: 'Raleway';
     font-size: 5em;
+    background-color: #FAF9F6;
+    text-shadow: 2px 2px 4px #3e3e3e;
 }
 
 .disc {
@@ -25,6 +27,10 @@
     text-align: center;
     font-family: 'Raleway';
     font-size: 1.3rem;
+    background-color:#FAF9F6;
+    border-radius: 15px;
+    padding: 1%;
+    border: 5px solid #000000;
    
 }
 
@@ -36,10 +42,11 @@
 }
 
 .fancyPic {
-    width: 50%;
+    width: 25%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 
 @font-face {
@@ -50,22 +57,64 @@
 }
 
 body {
-    background-color: #9b0707;
+    background-image: url(../src/imgs/wallpaper.png);
+    font-size: 16px;
 }
 
 .selectedNav {
-    color: #9b0707;
-    font-size: 1.5em;
+    color: #ffffff;
 }
 
 .menuLayout {
     display:grid;
-    grid-template-rows: 20vh 20vh 20vh;
-    grid-template-columns: 45vw 45vw;
+    grid-template-rows: repeat(3, 28vh);
+    grid-template-columns: 25vw 25vw;
     justify-content: center;
     gap: 5%;
+ 
 }
 
 li {
     cursor: pointer;
 }
+
+li:hover {
+    color:white;
+}
+
+.menuDiv {
+    display: grid;
+    justify-items: center;
+    font-family: 'Raleway';
+    font-size: 2em;
+    background-color:#faf9f6dc;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.menuImg {
+    width: 26%;
+    border-radius: 10px;
+}
+
+.menuDisc {
+    font-family: 'Raleway';
+    font-size: .5em;
+    text-align: center;
+}
+
+.contactDiv {
+    background-color:#faf9f6dc;
+    margin-left: 33%;
+    margin-right: 33%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway';
+    align-items: center;
+    border-radius: 15px;
+    border: 5px solid #000000;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
