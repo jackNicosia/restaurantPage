@@ -17,7 +17,7 @@ function createContactPage(){
     email.textContent = "Email: business@gaia.com";
     contactDiv.appendChild(email);
     const address = document.createElement('p');
-    address.textContent = "45 Ala Wai Blvd, South Lake Tahoe, CA"
+    address.textContent = "45 Academy Blvd, South Lake Tahoe, CA"
     contactDiv.appendChild(address);
     
     
